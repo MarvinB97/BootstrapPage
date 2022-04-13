@@ -1,0 +1,33 @@
+body{
+    background-color: azure;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+/*----NAV----*/
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+.affix + .container-fluid {
+    padding-top: 70px;
+  }
+
+/*-----CONTENT----*/
+.well{
+    text-align: center;
+}
+
+.well p:last-of-type{
+    font-size: 10px;
+}
